@@ -1,1 +1,20 @@
 
+Test.zip contains the following files:
+1. Task.sln - Visual studio solution;
+2. Task.csproj - Visual studio C# project;
+
+There are also the next folders:
+1. Data folder contains Data containers for Web-api tests;
+2. Configuration folder contains WebApiTestConfig.cs file where described all required methods of API testing. 
+(i.e., setupClient, getRequest,postRequest, deleteRequest methods);
+
+Main file which described the API tests - is ApiTests.cs
+In this file contains all suggested api methods.
+
+How to Run API tests:
+1. Open C# project in Visual studio.
+2. Before build please make sure that all packages exists. (or Restore NuGet packages needs);
+3. Build solution;
+4. Add/Open Test explorer in Visual studio;
+5. Select some test -> right click on the test in Test Explorer to Run option;
+6. Verify the result in output.
